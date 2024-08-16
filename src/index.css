@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;    
+}
+
+.custom-navbar {
+    background-color: red !important;
+}
+
+#presentacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('./public/landscape-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 66px;    
+}
+
+#presentacion-card {
+    display: flex;
+    padding: 24px;
+    width: 660px;    
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+#presentacion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#presentacion h2  p {
+    text-align: center;
+}
+
+#presentacion p {    
+    display: flex;    
+    justify-content: center;
+    padding: 24px;
+}
+
+#imagen-sebas {
+    width: 250px;
+    border-radius: 20px;    
+}
+
+/* Proyectos */
+
+#proyectos {
+    width: 100%;
+    background-color: #010D0D;
+}
+
+.proyecto-card {
+    color: #fff;
+    width: 260px;
+    height: 400px;
+    padding: 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A1C1D;
+
+}
+
+.proyecto-card img {
+    width: 120px;        
+}
+
+.proyecto-card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto-card div button {
+    color: white;
+    width: 80px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: #252525;
+}

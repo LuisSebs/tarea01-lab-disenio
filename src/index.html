@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea01 - Html, Css y Boostrap</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./index.css"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-navbar">            
+            <div class="container-fluid">
+              <h1>SebsBlog</h1>
+              <!-- Menu Hamburguesa -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Menu -->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Contenido principal -->
+     <main>
+        <!-- Presentacion -->
+        <section id="presentacion">                   
+            <article id="presentacion-card">
+                <div>
+                    <h2>
+                        About Me
+                    </h2>          
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, obcaecati deleniti dolor odit iusto dicta fugit sunt quidem eaque! Nostrum perspiciatis, ratione cumque distinctio minima, sint nobis iusto veniam vitae numquam quaerat sit porro incidunt mollitia, cum culpa accusantium sunt atque libero! Voluptates exercitationem deleniti iure magnam porro! Accusamus, quo.
+                    </p>                
+                </div>
+                <img id="imagen-sebas" src="./public/sebas.jpg" alt="Fotografía de Sebastian">
+            </article>
+        </section>
+        <!-- Proyectos -->
+        <section id="proyectos">
+            <!-- Proyecto 01 -->
+            <article class="proyecto-card">
+                <h2>Proyecto 01</h2>
+                <img src="./public/html-logo.png" alt="">
+                <div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam saepe sed qui. Consectetur ea recusandae assumenda cumque vel enim.
+                    </p>
+                    <button>Leer más</button>
+                </div>            
+            </article>
+            <article class="proyecto-card">
+                <h2>Proyecto 01</h2>
+                <img src="./public/html-logo.png" alt="">
+                <div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam saepe sed qui. Consectetur ea recusandae assumenda cumque vel enim.
+                    </p>
+                    <button>Leer más</button>
+                </div>            
+            </article>
+            <article class="proyecto-card">
+                <h2>Proyecto 01</h2>
+                <img src="./public/html-logo.png" alt="">
+                <div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam saepe sed qui. Consectetur ea recusandae assumenda cumque vel enim.
+                    </p>
+                    <button>Leer más</button>
+                </div>            
+            </article>
+        </section>
+     </main>
+     <!-- Pide de pagina -->
+     <footer>
+        <!-- Redes Sociales -->
+        <div>
+            <ul>
+                <li>
+                    Facebook
+                </li>
+                <li>
+                    Twitter
+                </li>
+                <li>
+                    Instagram
+                </li>
+            </ul>
+        </div>
+     </footer>
+</body>
+</html>
