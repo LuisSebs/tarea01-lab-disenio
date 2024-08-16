@@ -73,13 +73,12 @@ main {
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     padding: 120px 40px;
-    background: url('./public/landscape-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .proyecto-card {
-    color: #fff;
+    color: #252525;
     width: 260px;
     height: 400px;
     padding: 24px;
@@ -88,13 +87,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    color: white;
 }
 
 .proyecto-card img {
@@ -109,11 +101,9 @@ main {
 }
 
 .proyecto-card div button {
-    color: white;
     width: 100px;
     padding: 4px 8px;
     border-radius: 2px;
     border: 1px solid;
-    background-color: #8D9DA1;
 }
 
